@@ -18,7 +18,7 @@ const options = {
   minute: '2-digit'
 };
 
-const Questions = ({ children, questions }) =>
+const Questions = ({ questions }) =>
   <Grid container centered stackable stretched columns={4}>
     {/* language=CSS */}
     <style jsx>
@@ -56,8 +56,6 @@ const Questions = ({ children, questions }) =>
     </Grid.Row>
   </Grid>;
 
-Questions.defaultProps = {};
-
-Questions.propTypes = {};
+Questions.propTypes = { questions: PT.isRequired };
 
 export default Questions;
