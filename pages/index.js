@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Questions from '../components/Questions';
+import NewQuestionModal from '../components/NewQuestionModal';
 import * as actions from '../store/poll-store/actions';
 import { initStore } from '../store/configure';
 import withRedux from 'next-redux-wrapper';
@@ -25,6 +26,7 @@ class Index extends React.Component {
     return (
       <Layout title={'BCGDV-challenge'}>
         <Header title={'Questions'} />
+        <NewQuestionModal />
         <Questions questions={qs} />
       </Layout>
     );
