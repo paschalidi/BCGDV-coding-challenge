@@ -4,7 +4,7 @@ exports[`Snapshot Testing Layout 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Layout />,
+  Symbol(enzyme.__unrendered__): <Unknown />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -32,7 +32,7 @@ ShallowWrapper {
             rel="stylesheet"
           />
           <link
-            href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+            href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"
             rel="stylesheet"
           />
           <link
@@ -81,7 +81,7 @@ ShallowWrapper {
               rel="stylesheet"
             />,
             <link
-              href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+              href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"
               rel="stylesheet"
             />,
             <link
@@ -159,7 +159,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "href": "//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css",
+              "href": "//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css",
               "rel": "stylesheet",
             },
             "ref": null,
@@ -263,7 +263,7 @@ ShallowWrapper {
               rel="stylesheet"
             />
             <link
-              href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+              href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"
               rel="stylesheet"
             />
             <link
@@ -312,7 +312,7 @@ ShallowWrapper {
                 rel="stylesheet"
               />,
               <link
-                href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+                href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"
                 rel="stylesheet"
               />,
               <link
@@ -390,7 +390,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "href": "//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css",
+                "href": "//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css",
                 "rel": "stylesheet",
               },
               "ref": null,
