@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Testing Header 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <JSXStyle
+          css=".aligner.jsx-3807536234{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;}.header.jsx-3807536234{height:40vh;}.details--padding.jsx-3807536234{padding-left:4px;}"
+          styleId="3807536234"
+        />,
+        <Grid
+          centered={true}
+          columns={1}
+          container={true}
+          stackable={true}
+        >
+          <GridRow>
+            <GridColumn
+              width={16}
+            >
+              <div
+                className="jsx-3807536234 text--lg"
+              />
+            </GridColumn>
+          </GridRow>
+        </Grid>,
+      ],
+      "className": "jsx-3807536234 background-color--white header aligner",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": ".aligner.jsx-3807536234{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;}.header.jsx-3807536234{height:40vh;}.details--padding.jsx-3807536234{padding-left:4px;}",
+          "styleId": "3807536234",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "centered": true,
+          "children": <GridRow>
+            <GridColumn
+              width={16}
+            >
+              <div
+                className="jsx-3807536234 text--lg"
+              />
+            </GridColumn>
+          </GridRow>,
+          "columns": 1,
+          "container": true,
+          "stackable": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <GridColumn
+                width={16}
+              >
+                <div
+                  className="jsx-3807536234 text--lg"
+                />
+              </GridColumn>,
+              undefined,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <div
+                  className="jsx-3807536234 text--lg"
+                />,
+                "width": 16,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "jsx-3807536234 text--lg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            undefined,
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <JSXStyle
+            css=".aligner.jsx-3807536234{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;}.header.jsx-3807536234{height:40vh;}.details--padding.jsx-3807536234{padding-left:4px;}"
+            styleId="3807536234"
+          />,
+          <Grid
+            centered={true}
+            columns={1}
+            container={true}
+            stackable={true}
+          >
+            <GridRow>
+              <GridColumn
+                width={16}
+              >
+                <div
+                  className="jsx-3807536234 text--lg"
+                />
+              </GridColumn>
+            </GridRow>
+          </Grid>,
+        ],
+        "className": "jsx-3807536234 background-color--white header aligner",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": ".aligner.jsx-3807536234{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;}.header.jsx-3807536234{height:40vh;}.details--padding.jsx-3807536234{padding-left:4px;}",
+            "styleId": "3807536234",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "centered": true,
+            "children": <GridRow>
+              <GridColumn
+                width={16}
+              >
+                <div
+                  className="jsx-3807536234 text--lg"
+                />
+              </GridColumn>
+            </GridRow>,
+            "columns": 1,
+            "container": true,
+            "stackable": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <GridColumn
+                  width={16}
+                >
+                  <div
+                    className="jsx-3807536234 text--lg"
+                  />
+                </GridColumn>,
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <div
+                    className="jsx-3807536234 text--lg"
+                  />,
+                  "width": 16,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "jsx-3807536234 text--lg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              undefined,
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

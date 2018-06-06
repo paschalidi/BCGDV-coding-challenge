@@ -1,14 +1,12 @@
 /* eslint-env jest */
-
 import { shallow } from 'enzyme';
 import React from 'react';
-
-import Component from '../index';
-
+import Header from '../index';
 
 describe('Snapshot Testing', () => {
-  it('Button', () => {
-    const component = shallow(<Component />);
+  it('Header', () => {
+    const component = shallow(<Header />);
     expect(component).toMatchSnapshot();
   });
 });
+
