@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { reducer } from './app-store/reducer';
+import { reducer } from './poll-store/reducer';
 
 
-const rootReducer = combineReducers({ app: reducer });
+const rootReducer = combineReducers({ polls: reducer });
 export default rootReducer;
