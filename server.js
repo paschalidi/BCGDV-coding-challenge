@@ -10,6 +10,18 @@ const handle = app.getRequestHandler();
 
 app.prepare().then(() => {
   const server = express();
+  server.use(bodyParser.json());
+  server.use(bodyParser.urlencoded({ extended: true }));
+
+  [
+    ['/questions/:queryId', '/question', 'queryId']
+  ].forEach(([maskedUrl, actualUrl, id]) => {
+    server.get(maskedUrl, (req, res) => {
+      let queryParams;
+      id ? queryParams = { queryId: '/questions/' + req.params[id] } : queryParams = {};
+      app.render(req, res, actualUrl, { ...queryParams });
+    });
+  });
 
   server.get('*', (req, res) => {
     return handle(req, res);
