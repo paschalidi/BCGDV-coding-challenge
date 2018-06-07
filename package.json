@@ -1,5 +1,5 @@
 {
-  "name": "with-redux-wrapper",
+  "name": "a-very-simple-poll-system",
   "version": "1.0.0",
   "scripts": {
     "dev": "nodemon server.js",
