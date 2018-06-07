@@ -12,6 +12,8 @@ The application works for both Desktop and Mobile
 
 ## Instructions how to run
 
+You can find a live version of the application (here)[https://a-very-simple-poll-system-yyxnceijiu.now.sh]
+
 ### To run locally :
 
 1. `git clone https://github.com/paschalidi/BCGDV-coding-challenge.git`
