@@ -27,8 +27,7 @@ Every visual elements is regular pure CSS.
 * Would be better if when user creates new question there is a more complex validation system
   * not same vote choice twice
 
-* Design was made relatively quickly, it could be greatly improved. Making it only with CSS was
-  a funny challenge but limits the options.
+* Design was made relatively quickly, it could be greatly improved.
 
 
 
