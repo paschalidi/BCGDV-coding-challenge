@@ -24,7 +24,7 @@ export const reducer = (state = INITIAL_STATE, { type, payload }) => {
       return R.assocPath(['qs'], payload.questions, state);
 
     case t.SAVE_QUESTION_STATE:
-      let totalVotes = Object.keys(payload.question.choices).reduce((current, index, key) => {
+      let totalVotes = Object.keys(payload.question.choices).reduce((current, index) => {
         return current + parseInt(payload.question.choices[index].votes, 10);
       }, 0);
       return {
@@ -46,7 +46,6 @@ export const reducer = (state = INITIAL_STATE, { type, payload }) => {
       return { ...state };
 
     case t.SET_CHOICE:
-      console.log((state.choices));
       return R.assocPath(['choices', [payload.key]], payload.value, state);
 
     case t.SET_NEW_QUESTION_TITLE:

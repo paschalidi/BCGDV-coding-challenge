@@ -25,8 +25,11 @@ describe('app reducer', () => {
     (reducer(INITIAL_STATE, { type: t.SAVE_FETCH, payload: { questions: {} } }))
     .toEqual({ ...INITIAL_STATE, qs: {} });
   });
-  // it('SAVE_QUESTION_STATE', () => {
-  // });
+  it('SAVE_QUESTION_STATE', () => {
+    expect
+    (reducer({}, { type: t.SAVE_QUESTION_STATE, payload :{question:{"question":"Game Genre","url":"/questions/10","published_at":"2015-05-27T21:22:26.670000+00:00","choices":[{"votes":45,"url":"/questions/10/choices/70","choice":"Shooter"},{"votes":2,"url":"/questions/10/choices/72","choice":"Role-playing"},{"votes":0,"url":"/questions/10/choices/75","choice":"Sports"}]}} }))
+    .toEqual({q: {"totalVotes": 47,"question":"Game Genre","url":"/questions/10","published_at":"2015-05-27T21:22:26.670000+00:00","choices":[{"votes":45,"url":"/questions/10/choices/70","choice":"Shooter"},{"votes":2,"url":"/questions/10/choices/72","choice":"Role-playing"},{"votes":0,"url":"/questions/10/choices/75","choice":"Sports"}]}})
+  });
   it('should handle INCREMENT_CHOICES', () => {
     expect
     (reducer({ numberOfChoices: 10 }, { type: t.INCREMENT_CHOICES }))
