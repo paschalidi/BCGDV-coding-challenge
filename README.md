@@ -4,7 +4,9 @@ This project is a very simple React/Redux system that lets users vote through a 
 Documentation for the API is available at http://docs.pollsapi.apiary.io/.
 
 The application starts and the user can see a list of questions.
+
 The user can select any of the questions and vote. One can vote for each question as many times wishes.
+
 The user has the possibility to create new questions which then also can be part of the poll.
 
 Every visual elements is regular pure CSS.
@@ -58,7 +60,11 @@ As boilerplate I used [Nextjs](https://github.com/zeit/next.js). Next.js is a li
        4. loading turned off.
 
        This way there is consistant between the API and the view of the application.
-       **IMPORTANT NOTE: the api of Polls is not the most consistant. There are times that returns wrong values and as a result user might not see the latest action she/he made. We dont consider this a frontend bug  but one that relates to the API.**
+     
+     
+** IMPORTANT NOTE: the api of Polls is not the most consistant. 
+There are times that returns wrong values and as a result user might not see the latest action she/he made. 
+We dont consider this a frontend bug  but one that relates to the API. **
 
 
 
