@@ -34,7 +34,7 @@ class NewQuestionModal extends React.Component {
     return (
       <div>
         <Button fluid secondary onClick={this.handleOpen}>Create new Question</Button>
-        <Modal open={this.state.modalOpen} style={{ margin: '0 auto !important' }}>
+        <Modal open={this.state.modalOpen}q>
           <Modal.Header>Create new Question</Modal.Header>
           <Modal.Content>
             <Grid container>

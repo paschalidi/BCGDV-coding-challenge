@@ -134,3 +134,7 @@ i.icon {
     -moz-border-radius: 0;
     border-radius: 0;
 }
+/*MODAL SEMANTIC CUSTOMISATION*/
+.ui.active.modal{
+        margin: 0 auto !important;
+}
