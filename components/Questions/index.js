@@ -56,6 +56,7 @@ const Questions = ({ questions }) =>
     </Grid.Row>
   </Grid>;
 
-Questions.propTypes = { questions: PT.isRequired };
+Questions.propTypes = { questions: PT.array.isRequired };
+
 
 export default Questions;
