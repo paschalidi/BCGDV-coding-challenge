@@ -18,6 +18,7 @@ class NewQuestionModal extends React.Component {
   state = { modalOpen: false };
 
   handleOpen = () => this.setState({ modalOpen: true });
+  handleClose = () => this.setState({ modalOpen: false });
 
   handleSubmit = async () => {
     await this.props.makeNewQuestionBody();
@@ -34,7 +35,7 @@ class NewQuestionModal extends React.Component {
     return (
       <div>
         <Button fluid secondary onClick={this.handleOpen}>Create new Question</Button>
-        <Modal open={this.state.modalOpen}q>
+        <Modal open={this.state.modalOpen} onClose={this.handleClose}>
           <Modal.Header>Create new Question</Modal.Header>
           <Modal.Content>
             <Grid container>
