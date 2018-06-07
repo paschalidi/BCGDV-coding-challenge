@@ -8,6 +8,7 @@ The user can select any of the questions and vote. One can vote for each questio
 The user has the possibility to create new questions which then also can be part of the poll.
 
 Every visual elements is regular pure CSS.
+The application works for both Desktop and Mobile
 
 ## Instructions how to run
 
