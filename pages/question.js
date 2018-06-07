@@ -82,7 +82,7 @@ class Question extends React.Component {
                     </Segment>
                     :
                     <Segment
-                      style={{ padding: 0 }}
+                      style={{ padding: 0, cursor: 'pointer' }}
                       onClick={() => this.setState({
                         activeUrl: index.url,
                         activeIndex: key,
