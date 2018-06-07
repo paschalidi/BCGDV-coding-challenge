@@ -6,6 +6,11 @@ export const saveFetch = (questions) => ({
   payload: { questions }
 });
 
+export const saveQuestionState = (question) => ({
+  type: t.SAVE_QUESTION_STATE,
+  payload: { question }
+});
+
 export const incrementChoices = () => ({
   type: t.INCREMENT_CHOICES
 });
