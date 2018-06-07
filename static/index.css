@@ -14,7 +14,7 @@ body div {
     margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .text--lg, .text--md, .text--sm {
     font-family: inherit;
     font-weight: 200;
     margin: 1.414em 0 0.5em;

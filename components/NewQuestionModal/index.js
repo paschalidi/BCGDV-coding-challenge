@@ -34,10 +34,7 @@ class NewQuestionModal extends React.Component {
     return (
       <div>
         <Button fluid secondary onClick={this.handleOpen}>Create new Question</Button>
-        <Modal
-          open={this.state.modalOpen}
-          centered={false}
-        >
+        <Modal open={this.state.modalOpen} style={{ margin: '0 auto !important' }}>
           <Modal.Header>Create new Question</Modal.Header>
           <Modal.Content>
             <Grid container>
@@ -101,9 +98,13 @@ class NewQuestionModal extends React.Component {
   }
 }
 
-NewQuestionModal.defaultProps = { numberOfChoices: 2, newQuestionTitle: '' };
+NewQuestionModal.defaultProps = { numberOfChoices: 2, newQuestionTitle: '', choices: 2 };
 
-NewQuestionModal.propTypes = {};
+NewQuestionModal.propTypes = {
+  numberOfChoices: PT.number,
+  choice: PT.number,
+  newQuestionTitle: PT.string
+};
 
 function mapStateToProps(state) {
   return { ...state.polls };
