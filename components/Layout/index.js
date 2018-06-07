@@ -14,6 +14,7 @@ export default ({ children, title }) =>(
       <title>{title}</title>
       <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" />
+      <link rel="shortcut icon" type="image/x-icon" href="../../static/favicon.png" />
       <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css" />
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css" />
       <link rel="stylesheet" type="text/css" href="/static/index.css" key="index-css" />
