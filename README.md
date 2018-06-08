@@ -12,7 +12,7 @@ The application works for both Desktop and Mobile
 
 ## Instructions how to run
 
-You can find a live version of the application [here](https://a-very-simple-poll-system-fxisgbwjzj.now.sh).
+You can find a live version of the application [here](https://a-very-simple-poll-system-yayvsqgysq.now.sh).
 
 ### To run locally :
 
